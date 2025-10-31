@@ -1,0 +1,5 @@
+{
+  "name": "AI Skybox Generator for Unity",
+  "description": "Upload reference images and use AI to generate a complete, seamless 6-sided skybox for your Unity projects. Includes a previewer, downloader, and instructions for use.",
+  "requestFramePermissions": []
+}
