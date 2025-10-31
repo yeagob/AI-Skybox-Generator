@@ -41,7 +41,7 @@ const generateEquirectangularPanorama = async (stylePrompt: string): Promise<str
     const prompt = `A high-resolution, 4K, seamless, 360-degree equirectangular panoramic image. The image must be perfectly seamless horizontally for use as a skybox. Faithfully and artistically reproduce the following detailed description, ensuring the colors, lighting, and aesthetic are captured precisely: **${stylePrompt}**.`;
 
     const response = await ai.models.generateImages({
-        model: 'imagen-4.0-generate-001',
+        model: 'imagen-4.0-ultra-generate-001',
         prompt,
         config: {
           numberOfImages: 1,

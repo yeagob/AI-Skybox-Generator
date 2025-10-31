@@ -21,7 +21,7 @@ The generator follows a sophisticated multi-step process to create your skybox:
     -   This style description is intelligently combined with your text prompt to form a final, comprehensive prompt.
 
 2.  **Panorama Generation**:
-    -   The final prompt is sent to the **Imagen 4** model, a powerful image generation model, to create a high-resolution, seamless 360° equirectangular panoramic image.
+    -   The final prompt is sent to the **Imagen 4 Ultra** model, a powerful image generation model, to create a high-resolution, seamless 360° equirectangular panoramic image.
 
 3.  **Client-Side Cubemap Conversion**:
     -   Once the panorama is generated, a client-side JavaScript algorithm maps the equirectangular projection onto the six faces of a cube. This process calculates the correct perspective for each face, ensuring a seamless transition in the 3D environment.
@@ -55,7 +55,7 @@ Your scene will now be illuminated by your custom, AI-generated skybox!
 -   **Frontend**: React, TypeScript, Tailwind CSS
 -   **AI Models**:
     -   Google Gemini 2.5 Flash (for image style analysis)
-    -   Google Imagen 4 (for panorama generation)
+    -   Google Imagen 4 Ultra (for panorama generation)
 -   **Libraries**:
     -   `@google/genai` for interacting with the Gemini API.
     -   `JSZip` for creating the downloadable archive.
